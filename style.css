@@ -1,0 +1,227 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    background-image: url('https://img.freepik.com/free-vector/white-background-with-zigzag-pattern-design_1017-33197.jpg?ga=GA1.1.1790882954.1725897252&semt=ais_hybrid');
+    background-repeat: repeat;
+}
+
+
+#logo {
+    display: flex;
+    margin: 0px;
+    padding: 50px;
+    font-family: "Fredoka One", sans-serif;
+    width: 10%;
+    text-shadow:
+    1px 1px 0px white,   /*bottom-right shadow*/
+    -1px 1px 0px white,  /*bottom-left shadow*/
+    1px -1px 0px white,  /*top-right shadow*/
+    -1px -1px 0px white; /*top-left shadow*/
+    text-decoration: underline lavender
+}
+
+
+
+
+h1 {
+    margin: 0px;
+    padding: 8px;
+}
+
+article > header {
+    text-align: center;
+}
+
+
+ul {
+    margin: 0px;
+}
+
+
+body > header {
+background-color: lavender;
+color: steelblue;
+display: flex;
+height: 12vh;
+align-items: center;
+justify-content: space-between;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: steelblue;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+body > footer {
+    background-color: lavender;
+    display: flex;
+}
+
+img{
+    border-radius: 100%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    text-decoration: none;
+    color: steelblue;
+}
+
+#first-header {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#first-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid lavender;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+ 
+#second {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#third {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#last {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#name {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.coat-background {
+    background-image: url('https://images.unsplash.com/photo-1562986398-ef6efbbc9537?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fGF1dHVtbiUyMGNsb3RoZXN8ZW58MHx8MHx8fDA%3D');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 400px; 
+}
+
+.summer-background {
+    background-image: url('https://images.unsplash.com/photo-1526857240824-92be52581d9b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAwfHxzdW1tZXIlMjBjbG90aGVzfGVufDB8fDB8fHww');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 400px; 
+}
+
+.clothing-background {
+    background-image: url('https://images.unsplash.com/photo-1427097829427-56a905bf7004?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM0fHxzdW1tZXIlMjBjbG90aGVzfGVufDB8fDB8fHww');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 400px; 
+}
+
+.autumn-background {
+    background-image: url('https://plus.unsplash.com/premium_photo-1697753123469-6030367e2a11?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTkzfHxhdXR1bW4lMjBjbG90aGluZ3xlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 400px; /
+}
+
+.beginning-pic {
+    background-image: url('https://img.freepik.com/premium-photo/portrait-beautiful-woman-pink-background_118454-27987.jpg?ga=GA1.1.1790882954.1725897252&semt=ais_hybrid');
+    background-size: auto; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 400px; /
+}
+
+aside {
+    color:black;
+    text-decoration: none;
+    padding: 50px;
+}
+
+.sidebar .featured-product {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.sidebar .featured-product img {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+}
+
+.sidebar .featured-product p {
+    margin: 0;
+}
+
+.footer-bottom > div {
+    margin: 5px 0;
+}
+
+  
+
+
+
+
+
+
+
